@@ -15,6 +15,7 @@ body {
   }
   
   .ingredient {
+    width: 80%;
     cursor: pointer;
     padding: 3px;
     margin: 1%;
@@ -200,6 +201,12 @@ body {
   }
   70%, 100% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .ingredient {
+    width: 100%; /* 在較小的螢幕上使用全寬度 */
   }
 }
 
